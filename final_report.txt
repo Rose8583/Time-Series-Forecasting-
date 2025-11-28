@@ -1,0 +1,26 @@
+Advanced Time Series Forecasting with Deep Learning and Attention Mechanisms
+
+1. Dataset & Preprocessing:
+- Multivariate dataset (>500 records) from S&P500
+- Normalization, log transformation, differencing, rolling window sequence
+
+2. Models:
+- ARIMA baseline
+- Standard LSTM
+- Attention-based LSTM with SelfAttention layer
+
+3. Hyperparameters:
+- Sequence window: 60
+- LSTM units: 64
+- Attention units: 32
+- Learning rate: 0.001
+- Dropout: 0.2
+
+4. Cross-Validation:
+- Rolling-origin evaluation
+- RMSE, MAE, MAPE recorded for each fold
+
+5. Insights:
+- Attention-LSTM performs best overall
+- Attention weights allow interpretability of which past timesteps influence predictions
+- LSTM improves over ARIMA, but attention-LSTM gives the most robust results
