@@ -1,0 +1,13 @@
+**Requirements**/
+
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+tensorflow>=2.9
+statsmodels
+yfinance
+tqdm
+jupyter
+keras-tuner
