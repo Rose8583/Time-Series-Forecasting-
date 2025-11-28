@@ -1,0 +1,23 @@
+Forecasting_project/
+
+│── main.py
+│── README.md
+│── requirements.txt
+│
+├── data/
+│ └── (downloaded CSV or generated synthetic data)
+│
+├── utils/
+│ ├── data_preprocess.py
+│ ├── cross_validation.py
+│ ├── metrics.py
+│ └── plot_utils.py
+│
+├── models/
+│ ├── baseline_arima.py
+│ ├── lstm_model.py
+│ ├── attention_layer.py
+│ └── attention_lstm_model.py
+│
+└── notebooks/
+└── analysis_notebook.ipynb
