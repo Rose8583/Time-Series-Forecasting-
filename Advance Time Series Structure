@@ -1,23 +1,20 @@
-Forecasting_project_Structure/
-
-│── main.py
-│── README.md
-│── requirements.txt
+Advanced-Time-Series-Forecasting/
 │
-├── data/
-│ └── (downloaded CSV or generated synthetic data)
-│
-├── utils/
-│ ├── data_preprocess.py
-│ ├── cross_validation.py
-│ ├── metrics.py
-│ └── plot_utils.py
+├── main.py
+├── requirements.txt
+├── README.md
 │
 ├── models/
-│ ├── baseline_arima.py
-│ ├── lstm_model.py
-│ ├── attention_layer.py
-│ └── attention_lstm_model.py
+│   ├── __init__.py
+│   ├── attention_layer.py
+│   └── attention_lstm_model.py
 │
-└── notebooks/
-└── analysis_notebook.ipynb
+├── notebooks/
+│   └── analysis_notebook.ipynb
+│
+├── reports/
+│   └── final_report.txt
+│
+├── outputs/
+│   └── .gitkeep
+
