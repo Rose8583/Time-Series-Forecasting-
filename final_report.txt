@@ -1,0 +1,26 @@
+### FILE: reports/final_report.txt
+Advanced Time Series Forecasting with Deep Learning and Attention Mechanisms
+
+This report includes dataset details, preprocessing steps, cross-validation strategy, hyperparameter choices, and model comparison insights.
+
+1. Dataset & Preprocessing:
+- Multivariate dataset (>500 records)
+- Normalization, differencing, windowing
+
+2. Models:
+- ARIMA baseline
+- Standard LSTM
+- Attention-based LSTM
+
+3. Hyperparameters:
+- Window size: 30
+- LSTM units: 64
+- Learning rate: 0.001
+
+4. Cross-Validation:
+- Rolling-origin evaluation
+- RMSE, MAE, MAPE reported per fold
+
+5. Insights:
+- Attention LSTM performs best
+- Attention weights enhance interpretability
